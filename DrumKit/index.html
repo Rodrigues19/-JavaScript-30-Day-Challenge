@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Drum Kit</title>
+</head>
+<body onkeypress="keyEvent(event);">
+    <div class="keys">
+        <div class="box" id="A" onclick="clickEvent()"><h1>A</h1><P>CLAP</P></div>
+        <div class="box" id="S" onclick="clickEvent()"><h1>S</h1><P>HIHAT</P></div>
+        <div class="box" id="D" onclick="clickEvent()"><h1>D</h1><P>KICK</P></div>
+        <div class="box" id="F" onclick="clickEvent()"><h1>F</h1><P>OPENHAT</P></div>
+        <div class="box" id="G" onclick="clickEvent()"><h1>G</h1><P>BOOM</P></div>
+        <div class="box" id="H" onclick="clickEvent()"><h1>H</h1><P>RIDE</P></div>
+        <div class="box" id="J" onclick="clickEvent()"><h1>J</h1><P>SNARE</P></div>
+        <div class="box" id="K" onclick="clickEvent()"><h1>K</h1><P>TOM</P></div>
+        <div class="box" id="L" onclick="clickEvent()"><h1>L</h1><P>TINK</P></div>
+       
+    </div>
+
+<audio data-key="65" src="sounds/clap.wav"></audio>
+<audio data-key="83" src="sounds/hihat.wav"></audio>
+<audio data-key="68" src="sounds/kick.wav"></audio>
+<audio data-key="70" src="sounds/openhat.wav"></audio>
+<audio data-key="71" src="sounds/boom.wav"></audio>
+<audio data-key="72" src="sounds/ride.wav"></audio>
+<audio data-key="74" src="sounds/snare.wav"></audio>
+<audio data-key="75" src="sounds/tom.wav"></audio>
+<audio data-key="76" src="sounds/tink.wav"></audio>
+
+</body>
+</html>
