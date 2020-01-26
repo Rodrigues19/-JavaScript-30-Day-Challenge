@@ -8,56 +8,57 @@ function change(id){
 }
 
 function keyEvent(event){
-    switch (event.keyCoode) {
+    switch (event.keyCode) {
         case 97 :
-            const audio = new Audio('sounds/clap.waw');
-            change('A');
+            const audio = new Audio('sounds/clap.wav');
+           // change('A');
             audio.play();
             break;
         case 115 :
-            const audio = new Audio('sounds/hihat.waw');
-            change('S');
+            const audio1 = new Audio('sounds/hihat.wav');
+            //change('S');
             audio1.play();
             break;
         case 100 :
-            const audio = new Audio('sounds/kick.waw');
-            change('D');
+            const audio2 = new Audio('sounds/kick.wav');
+           //change('D');
             audio2.play();
             break;
         case 102 :
-            const audio = new Audio('sounds/openhat.waw');
-            change('F');
+            const audio3 = new Audio('sounds/openhat.wav');
+          //  change('F');
             audio3.play();
             break;
         case 103 :
-            const audio = new Audio('sounds/boom.waw');
-            change('G');
+            const audio4 = new Audio('sounds/boom.wav');
+           // change('G');
             audio4.play();
             break;
         case 104 :
-            const audio = new Audio('sounds/ride.waw');
-            change('H');
+            const audio5 = new Audio('sounds/ride.wav');
+         //   change('H');
             audio5.play();
             break;
         case 106 :
-            const audio = new Audio('sounds/snare.waw');
-            change('J');
+            const audio6 = new Audio('sounds/snare.wav');
+          //  change('J');
             audio6.play();
             break;
         case 107 :
-            const audio = new Audio('sounds/tom.waw');
-            change('K');
+            const audio7 = new Audio('sounds/tom.wav');
+          //  change('K');
             audio7.play();
             break;
         case 108 :
-            const audio = new Audio('sounds/tink.waw');
-            change('L');
+            const audio8 = new Audio('sounds/tink.wav');
+          //  change('L');
             audio8.play();
             break;                        
 
     }
 }
 
+/*
 function clickEvent(event){
     switch (id) {
         case 97 :
@@ -66,48 +67,48 @@ function clickEvent(event){
             audio.play();
             break;
         case 115 :
-            const audio = new Audio('sounds/hihat.waw');
+            const audio1 = new Audio('sounds/hihat.waw');
             change('S');
             audio1.play();
             break;
         case 100 :
-            const audio = new Audio('sounds/kick.waw');
+            const audio2 = new Audio('sounds/kick.waw');
             change('D');
             audio2.play();
             break;
         case 102 :
-            const audio = new Audio('sounds/openhat.waw');
+            const audio3 = new Audio('sounds/openhat.waw');
             change('F');
             audio3.play();
             break;
         case 103 :
-            const audio = new Audio('sounds/boom.waw');
+            const audio4 = new Audio('sounds/boom.waw');
             change('G');
             audio4.play();
             break;
         case 104 :
-            const audio = new Audio('sounds/ride.waw');
+            const audio5 = new Audio('sounds/ride.waw');
             change('H');
             audio5.play();
             break;
         case 106 :
-            const audio = new Audio('sounds/snare.waw');
+            const audio6 = new Audio('sounds/snare.waw');
             change('J');
             audio6.play();
             break;
         case 107 :
-            const audio = new Audio('sounds/tom.waw');
+            const audio7 = new Audio('sounds/tom.waw');
             change('K');
             audio7.play();
             break;
         case 108 :
-            const audio = new Audio('sounds/tink.waw');
+            const audio8 = new Audio('sounds/tink.waw');
             change('L');
             audio8.play();
             break;                        
 
     }
-}
+}*/
 
 
 
