@@ -1,0 +1,13 @@
+.keys{
+    display: flex;
+    justify-content: space-around;
+   
+   
+}
+
+.box {
+    display: flex;
+    border: solid 2px pink; 
+    justify-content: space-between;
+    align-items: center;
+}
