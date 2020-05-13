@@ -2,4 +2,4 @@
 
 [Drum Kit](https://rodrigues19.github.io/-JavaScript-30-Day-Challenge/01-DrumKit/) a really cool battery
 
-images from [Pexel](https://www.pexels.com/pt-br/)
+images from [Pexels](https://www.pexels.com/pt-br/)
